@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+			<meta charset="UTF-8">
+			<link rel="stylesheet" href="/static/stylesheets/example-template.css">
+
+			<title>Example Web-App</title>
+	</head>
+	<body>
+		<div class="example center">
+			<h2>App Status</h2>
+			<p>Current Time - {{.Time}}</p>
+			<p>System Hostname - {{.Hostname}}</p>
+			<h3>Build Information</h3>
+			<p>Build Commit SHA - {{.CommitHash}}</p>
+			<p>Build Time - {{.BuildTime}}</p>
+		</div>
+	</body>
+</html>

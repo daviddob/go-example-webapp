@@ -1,0 +1,29 @@
+html {
+	height: 100%;
+}
+
+body  {
+	min-height:100%;
+	background-image: url("/static/stylesheets/background.gif"), linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3));
+	background-blend-mode: overlay;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.example {
+	font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+	font-size: 3rem;
+	color: aliceblue;
+}
+
+.center {
+	/* height: 100vh; */
+    justify-content: center;
+	align-items: center;
+	
+	display: inline-block;
+    *display: inline; /* For IE7 */
+    zoom: 1; /* Trigger hasLayout */
+    width: 100%;
+    text-align: center;
+}​
