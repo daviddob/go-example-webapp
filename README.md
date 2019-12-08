@@ -20,5 +20,3 @@ For use with docker, it can be built and run using
 docker build . -t go-example-webapp:latest
 docker run -d -p8080:8080 go-example-webapp
 ```
-
-Last bumped on: 12/3/19
